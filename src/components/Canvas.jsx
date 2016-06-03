@@ -10,8 +10,8 @@ const HEIGHT = 300;
 const STYLES = {
 	backgroundColor: '#0A2933',
 	position: 'absolute',
-	top: '0',
-	left: '0'
+	top: '0px',
+	left: '0px'
 };
 
 export default React.createClass({
