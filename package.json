@@ -44,9 +44,7 @@
     "prepublish": "babel src --out-dir lib --source-maps",
     "test": "mocha --compilers js:babel-core/register",
     "cover": "babel-node node_modules/.bin/babel-istanbul cover _mocha",
-    "lint": "eslint --color src/**/*.js",
-    "postinstall": "node -e \"require('fs').stat('lib', function (e, s) { process.exit(e || !s.isDirectory() ? 1 : 0) })\" || npm build"
-
+    "lint": "eslint --color src/**/*.js"
   },
   "dependencies": {
     "random-hex": "^1.0.2"

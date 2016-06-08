@@ -10,7 +10,7 @@ coverage
 node_modules
 
 # Build directory that contains the transpiled (ES5) source code
-lib
+# lib
 
 # Misc
 .DS_Store
